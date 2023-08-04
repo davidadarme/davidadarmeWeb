@@ -1,0 +1,93 @@
+/* Menú */
+header {
+  background-color: #8a6517;
+  display: grid;
+  justify-content: flex-end;
+}
+
+.navbar {
+  z-index: 9998;
+  width: 100%;
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-fill-color: inherit;
+  mix-blend-mode: difference;
+  background-color: rgba(255, 0, 0, 0);
+  background-clip: border-box;
+  padding: 40px 0;
+  font-family: 'Helvetica Now Display';
+  font-size: 22px;
+  font-weight: bold;
+  font-style: normal;
+  display: block;
+  position: fixed;
+  top: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+  display: inline;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-grid.right {
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 80%;
+  position: relative;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('src_images/luzkjzqyo7xa1.jpg');
+  background-size: cover;
+  background-position: top center;
+  z-index: -1;
+}
+
+.demo {
+  font-family: 'Helvetica Now Display';
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+  border: 3px solid #ffffff;
+  padding: 20px;
+}
+
+.signatures {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
