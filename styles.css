@@ -1,4 +1,16 @@
 /* Menú */
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url('font/HelveticaNowDisplay-Bold.ttf'),
+     /*url('font/HelveticaNowDisplay-Black.woff') format('woff'),*/
+     /*url('font/HelveticaNowDisplay-Thin.ttf') format('truetype');*/;
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
 header {
   background-color: #8a6517;
   display: grid;
@@ -19,7 +31,6 @@ header {
   padding: 40px 0;
   font-family: 'Helvetica Now Display';
   font-size: 22px;
-  font-weight: bold;
   font-style: normal;
   display: flex;
   justify-content: center ;
@@ -97,7 +108,6 @@ body {
 .demo {
   font-family: 'Helvetica Now Display';
   font-size: 1.5rem;
-  font-weight: bold;
   color: #fff;
   text-align: left;
   padding: 20px;
