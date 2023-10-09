@@ -2,11 +2,10 @@
 
 @font-face {
   font-family: 'Helvetica Now Display';
-  src: url('font/HelveticaNowDisplay-Bold.ttf'),
+  src: url('font/HelveticaNowDisplay-Bold.ttf');
+  url: (font/HelveticaNowDisplay-LightIta.ttf),
      /*url('font/HelveticaNowDisplay-Black.woff') format('woff'),*/
      /*url('font/HelveticaNowDisplay-Thin.ttf') format('truetype');*/;
-  font-style: normal;
-  font-weight: normal;
 }
 
 
@@ -275,3 +274,40 @@ footer {
 
 
 
+* { box-sizing: border-box; }
+
+body { 
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+/* STRUCTURE */
+
+.wrapper {
+  font-family: 'Helvetica Now Display';
+	padding: 5px;
+	max-width: 960px;
+	width: 95%;
+	margin: 20px auto;
+}
+header {
+	padding: 0 15px;
+  text-align: ;
+}
+
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+
+.column {
+	flex: 1;
+	border: 1px solid gray;
+	margin: 2px;
+	padding: 10px;
+	&:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; }
+	
+}
