@@ -1,5 +1,11 @@
 /* Menú */
 
+@media (max-width: 768px) {
+  /* Estilos para pantallas de hasta 768px de ancho */
+}
+
+
+
 @font-face {
   font-family: 'Helvetica Now Display';
   src: url('font/HelveticaNowDisplay-Bold.ttf');
@@ -82,26 +88,6 @@ body {
   overflow-x: hidden;
 }
 
-
-
-.carousel-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.carousel {
-  display: flex;
-  overflow: hidden;
-}
-
-.slide img {
-  width: 100%;
-  height: auto;
-}
-
-
-
 .container {
   width: 50%;
   margin: 0 auto;
@@ -136,14 +122,13 @@ body {
 
 
 .wojakImage {
-  margin-top: 5rem;
+  margin-bottom: 5rem;
   text-align: center;
   
 }
 
 footer {
   text-align: center;
-  background-color: #1f1f1f;
 }
 
 .social-media {
@@ -169,6 +154,13 @@ footer {
   transform: translateY(-4px);
 }
 
+.barra-container {
+  font-family: 'Helvetica Now Display';
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
 .barra {
   text-align: left;
@@ -182,8 +174,8 @@ footer {
   position: relative;
   padding: 0 5px;
   display: flex;
-  height: 40px;
-  width: 500px;
+  height: 20px;
+  width: 300px;
 }
 
 .progress-pg {
@@ -256,14 +248,18 @@ footer {
   100% { width: 50%; }
 }
 
+.my-photo {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5%;
+}
 
-
-
-
-
-
-
-
+.elchato {
+  width: 150px; /* Ajusta el ancho y alto según tus necesidades */
+  height: 150px; /* Debe ser igual para hacerla circular */
+  border-radius: 50%; /* Hace que las esquinas sean redondas */
+  object-fit: cover; /* Ajusta el tamaño de la imagen para que se ajuste al espacio redondo */
+}
 
 .barratxt {
   font-family: 'Helvetica Now Display';
@@ -271,8 +267,6 @@ footer {
   font-size: 22px;
   font-style: Light;
 }
-
-
 
 * { box-sizing: border-box; }
 
@@ -285,10 +279,11 @@ body {
 
 .wrapper {
   font-family: 'Helvetica Now Display';
+  color: #ffffff;
 	padding: 5px;
 	max-width: 960px;
 	width: 95%;
-	margin: 20px auto;
+	margin: 10px auto;
 }
 header {
 	padding: 0 15px;
@@ -296,6 +291,7 @@ header {
 }
 
 .columns {
+
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -304,9 +300,10 @@ header {
 
 .column {
 	flex: 1;
-	border: 1px solid gray;
+	border: 2px solid rgb(49, 49, 49);
 	margin: 2px;
 	padding: 10px;
+  color:#cacaca;
 	&:first-child { margin-left: 0; }
 	&:last-child { margin-right: 0; }
 	

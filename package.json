@@ -1,0 +1,23 @@
+{
+  "name": "davidadarmeweb",
+  "version": "1.0.0",
+  "description": "Aquí encontrarás el alma digital de mi blog personal, una página web diseñada para compartir mis pensamientos, experiencias y pasiones con el mundo. (EN DESARROLLO, PRACTICANDO FRONT-END BAJO NIVEL)",
+  "main": "script.js",
+  "dependencies": {
+    "styled-components": "^6.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidadarme/davidadarmeWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidadarme/davidadarmeWeb/issues"
+  },
+  "homepage": "https://github.com/davidadarme/davidadarmeWeb#readme"
+}
