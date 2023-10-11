@@ -242,17 +242,9 @@ body {
   object-fit: cover; /* Ajusta el tamaño de la imagen para que se ajuste al espacio redondo */
 }
 
-.barratxt {
-  font-family: 'Helvetica Now Display';
-  color: #ffffff;
-  font-size: 22px;
-  font-style: Light;
-}
-
 * { box-sizing: border-box; }
 
 body { 
-  font-family: 'Open Sans', sans-serif;
   color: #666;
 }
 
@@ -260,14 +252,10 @@ body {
 
 .wrapper {
   font-family: 'Helvetica Now Display';
-  color: #ffffff;
 	padding: 5px;
 	max-width: 960px;
 	width: 95%;
 	margin: 10px auto;
-}
-header {
-	padding: 0 15px;
 }
 
 .columns {
@@ -283,7 +271,7 @@ header {
 	border: 2px solid rgb(49, 49, 49);
 	margin: 2px;
 	padding: 10px;
-  color:#cacaca;
+  color:#afafaf;
 	&:first-child { margin-left: 0; }
 	&:last-child { margin-right: 0; }
 	
