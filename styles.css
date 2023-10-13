@@ -1,13 +1,3 @@
-@media (max-width: 480px) {
-  .container {
-    width: 100%;
-  }
-  .navbar {
-    font-size: 16px;
-  }
-
-}
-
 @font-face {
   font-family: 'Helvetica Now Display';
   src: url('font/HelveticaNowDisplay-Bold.ttf');
@@ -18,7 +8,6 @@
   src: url('font/HelveticaNowDisplay-Medium.ttf') format('truetype');
   font-weight: lighter;
 }
-
 
 header {
   background-color: #8a6517;
@@ -43,14 +32,11 @@ header {
   display: flex;
   justify-content: center ;
   height: 100vh;
-
 }
 
 nav ul {
   list-style-type: none;
- 
   padding: 0;
- 
 }
 
 nav li {
@@ -89,18 +75,6 @@ body {
   margin: 0 auto;
 }
 
-/* .background-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('src_images/luzkjzqyo7xa1.jpg');
-  background-size: cover;
-  background-position: top center;
-  z-index: -1;
-} */
-
 .demo {
   font-family: 'Helvetica Now Display';
   font-size: 1.5rem;
@@ -115,8 +89,6 @@ body {
   border: 1px solid #ccc;
 }
 
-
-
 .wojakImage {
   margin-top: 10rem;
   margin-bottom: 5rem;
@@ -125,26 +97,18 @@ body {
   
 }
 
-
-
 .barra-container {
   font-family: 'Helvetica Now Display';
   color: #ffffff;
-  display: flex;
   align-items: center;
   flex-direction: column;
+  display: flex;
 }
-
-
 
 .progress {
   background: rgba(255,255,255,0.1);
-  justify-content: flex-start;
   border-radius: 100px;
-  align-items: center;
-  position: relative;
   padding: 0 5px;
-  display: flex;
   height: 20px;
   width: 500px;
   margin-bottom: 10%;
@@ -228,13 +192,6 @@ body {
   pointer-events: none;
 }
 
-.my-photo2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 2.5%;
-  pointer-events: none;
-}
-
 .elchato {
   width: 150px; /* Ajusta el ancho y alto según tus necesidades */
   height: 150px; /* Debe ser igual para hacerla circular */
@@ -274,10 +231,8 @@ body {
   color:#afafaf;
 	&:first-child { margin-left: 0; }
 	&:last-child { margin-right: 0; }
-	
 }
 
-/*footer*/
 footer {
   text-align: center;
 }
@@ -297,25 +252,17 @@ footer {
 .social-media a{
  color: white;
  font-size: 3rem;
- 
- 
 }
 
 .social-media:hover svg{
   transform: translateY(-4px);
 }
 
-
-
-
 .button {
   text-align: center;
   justify-items: center;
   margin-bottom: 5%;
 }
-
-
-
 
 button {
 margin-left: 1%;
@@ -329,12 +276,16 @@ margin-left: 1%;
   font-family: 'Helvetica Now Display';
 }
 
-
 .titlecs {
-  text-align: center;
-  justify-items: center;
+  position:top;
   font-family: 'Helvetica Now Display';
   color: #ffffff;
+}
+
+.csinflu {
+  text-align: center;
+  justify-content: center;
+  max-width: 20%;
 }
 
 .menor {
@@ -438,4 +389,43 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+
+
+@media (max-width: 768px) {
+  .menor {
+    flex-direction: column;
+  }
+
+  .border {
+    width: 100%;
+  }
+
+  .card {
+    margin-top: 1rem;
+  }
+
+  .demo {
+    margin: 1rem;
+  }
+
+  .columns {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .barra-container {
+    max-width: 40%;
+  }
+
+  .container {
+    width: 30%;
+    max-width: fit-content;
+  }
+
+  .wrapper {
+    width: 30%;
+    max-width: fit-content;
+  }
 }
